@@ -23,6 +23,7 @@
   },
   "scripts": {
     "build": "microbundle --external=all --compress=false",
-    "start": "microbundle watch"
+    "start": "microbundle watch",
+    "prepublish": "npm run build"
   }
 }

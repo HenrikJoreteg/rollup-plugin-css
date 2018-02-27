@@ -1,0 +1,28 @@
+{
+  "name": "@henrikjoreteg/rollup-plugin-css",
+  "description": "Rollup plugin for aggregating and outputting CSS",
+  "version": "0.0.0",
+  "author": "Henrik Joreteg <henrik@joreteg.com> (joreteg.com)",
+  "dependencies": {
+    "cssmin": "0.4.3",
+    "rollup-pluginutils": "2.0.1"
+  },
+  "devDependencies": {
+    "microbundle": "0.4.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "scripts": {
+    "build": "microbundle --external=all --compress=false",
+    "start": "microbundle watch"
+  }
+}

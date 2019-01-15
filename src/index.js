@@ -35,7 +35,7 @@ export default (options = {}) => {
 
       return ''
     },
-    ongenerate: (opts, rendered) => {
+    generateBundle: (opts, rendered) => {
       // No stylesheet needed
       if (!changes || options.output === false) {
         return

@@ -32,6 +32,10 @@ export default {
 }
 ```
 
+## changelog
+
+2.0.0 - Renamed `ongenerate`to `generateBundle` per updates to Rollup. Thanks @ryan-codingintrigue
+
 ## credits
 
 If you like this follow [@HenrikJoreteg](http://twitter.com/henrikjoreteg) on twitter.
